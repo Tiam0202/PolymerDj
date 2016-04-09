@@ -5,13 +5,13 @@ from django.views.generic import TemplateView
 # @login_required(login_url='/login/')
 class IndexView(TemplateView):
 
-    """ Docs IndexView"""
+    """ Docstring IndexView"""
     template_name = 'Index.html'
 
 
 class NextStepView(TemplateView):
 
-    """ Docs NextStepView"""
+    """ Docstring NextStepView"""
     next_step_locals = locals()
     template_name = "NextStep.html"
 

@@ -50,7 +50,7 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
+.*.log
 
 # Sphinx documentation
 docs/_build/
@@ -62,9 +62,15 @@ target/
 .ipynb_checkpoints
 
 # PyCharm
+/static/bower.json
 .idea/
 
 # Development dependencies
-
 static/bower_components/
 static/components/
+
+# Django 
+*/migrations/
+
+# db.sqlite
+db.sqlite3

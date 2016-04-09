@@ -60,3 +60,11 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Development dependencies
+
+static/bower_components/
+static/components/

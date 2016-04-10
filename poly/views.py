@@ -21,3 +21,6 @@ class NextStepView(TemplateView):
 
     def render_to_response(self, context, **response_kwargs):
         return super(NextStepView, self).render_to_response(context=context, **response_kwargs)
+
+    def get_template_names(self):
+        return super().get_template_names()

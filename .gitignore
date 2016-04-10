@@ -69,7 +69,8 @@ target/
 static/bower_components/
 static/components/
 
-# Django 
+
+# Django
 */migrations/
 
 # db.sqlite
